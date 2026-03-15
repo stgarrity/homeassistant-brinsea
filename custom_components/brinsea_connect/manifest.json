@@ -1,9 +1,9 @@
 {
   "domain": "brinsea_connect",
   "name": "Brinsea Connect",
-  "codeowners": ["@sgarrity"],
+  "codeowners": ["@stgarrity"],
   "config_flow": true,
-  "documentation": "https://github.com/sgarrity/homeassistant-brinsea",
+  "documentation": "https://github.com/stgarrity/homeassistant-brinsea",
   "integration_type": "device",
   "iot_class": "cloud_polling",
   "requirements": ["brinsea-connect-api>=0.1.0"],
