@@ -25,7 +25,7 @@ class BrinseaCoordinator(DataUpdateCoordinator):
 
     async def _async_update_data(self) -> dict:
         """Fetch latest data from Brinsea API."""
-        from .api_exceptions import BrinseaError
+        from brinsea_api import BrinseaError
 
         try:
             if not self.devices:

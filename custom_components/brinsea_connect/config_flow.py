@@ -20,8 +20,7 @@ class BrinseaConnectConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
         errors = {}
 
         if user_input is not None:
-            from .api_client import BrinseaClient
-            from .api_exceptions import BrinseaAuthError
+            from brinsea_api import BrinseaClient, BrinseaAuthError
 
             client = BrinseaClient(
                 email=user_input[CONF_EMAIL],
