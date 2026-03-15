@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Brinsea Connect",
+        "description": "Enter your Brinsea Connect app credentials.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email or password.",
+      "cannot_connect": "Unable to connect to Brinsea. Please try again."
+    },
+    "abort": {
+      "already_configured": "This account is already configured."
+    }
+  }
+}
