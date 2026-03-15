@@ -7,7 +7,7 @@
   "integration_type": "device",
   "iot_class": "cloud_polling",
   "requirements": ["brinsea-connect-api>=0.1.0"],
-  "version": "0.1.0",
+  "version": "0.2.0",
   "dependencies": [],
   "after_dependencies": []
 }
